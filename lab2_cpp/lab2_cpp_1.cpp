@@ -3,6 +3,7 @@
 using namespace std;
 int main()
 {
+    // объявляем переменные введенного для проверки числа и результат проверки числа на простоту
     bool is_prime = true;
     int x;
     cout << "Enter number"; cin >> x;

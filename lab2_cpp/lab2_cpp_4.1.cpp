@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
     // Объявляем переменные, просим ввести количество выстрелов
-    int n; double x; double y; int count;
-    count = 0;
+    int n; double x, y;
+    int count = 0;
     cout << "Enter number of shots";
     cin >> n;
     // В цикле каждый раз принимает координаты выстрела и

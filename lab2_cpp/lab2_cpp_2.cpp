@@ -11,7 +11,6 @@ int main()
 	// Проверяем первые 9 цифр на валидность
 	int count = 0;
 	bool valid_9 = true;
-	bool valid_sum = true;
 	for (int i = 1;i <= 8;i++) {
 		if (n[i] == n[i - 1]) { count++; }
 		else { count = 0; };

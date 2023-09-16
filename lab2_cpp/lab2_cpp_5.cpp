@@ -9,6 +9,7 @@ int main()
     count, score = 0, 0;
     // В цикле каждый раз принимает координаты выстрела и
     // проверяем на попадание в зоны с очками, прибавляем к общему счету count
+    // пока количество очков менее 50
     while(score < 50){
         cout << "Enter X and Y";
         cin >> x;
@@ -23,6 +24,7 @@ int main()
     }
     cout << "Total score " << score << endl;
     cout << "Shots count " << count << endl;
+    // Определяем уровень по количеству выстрелов
     if(count <= 9){
         cout << "You're a pro!";
     }
